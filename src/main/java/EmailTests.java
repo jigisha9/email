@@ -20,7 +20,7 @@ public class EmailTests {
         try {
 
 
-                emailUtils = new EmailUtils("cms.chit.test@gmail.com", "Temp4now", "smtp.gmail.com", EmailUtils.EmailFolder.INBOX);
+                emailUtils = new EmailUtils("<emailID>", "<password>", "smtp.gmail.com", EmailUtils.EmailFolder.INBOX);
 
             //TODO: Execute actions to send verification code to email
         //    Message mesg = emailUtils.getMessageByIndex(1);
